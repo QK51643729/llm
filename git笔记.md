@@ -1,0 +1,8 @@
+- git init  初始化本地仓库
+- git remote add remote https://github.com/QK51643729/llm.git   添加远程仓库，id为“remote”，链接为...
+- git pull remote main 从远程仓库“remote”的“main”拉取到本地
+- git add .  添加本地内容
+- git commit -m "test"  提交更改 
+- git log 查看提交记录
+- git push -u remote master:main  推送本地到远程，本地仓库默认名为“master”
+- git checkout 检查本地分支
